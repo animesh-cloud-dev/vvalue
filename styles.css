@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    color: #f0f0f0;
+    background: #0d0d3d;
+    line-height: 1.6;
+    background: url('stars-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgba(13, 13, 61, 0.9);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0e0ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9d5c;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(45deg, #0d0d3d, #1a237e);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('galaxy-bg.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #ff6f61;
+    text-shadow: 0 0 8px #ff6f61;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #e0e0ff;
+    text-shadow: 0 0 5px #ff9d5c;
+}
+
+header .btn {
+    background-color: #ff9d5c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px #ff9d5c, 0 0 20px #ff6f61;
+}
+
+header .btn:hover {
+    background-color: #ff6f61;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff9d5c;
+    text-shadow: 0 0 5px #ff9d5c;
+}
+
+.service {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background: rgba(29, 29, 63, 0.8);
+    text-align: left;
+    box-shadow: 0 0 15px rgba(29, 29, 63, 0.7);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 157, 92, 0.5);
+}
+
+.service h3 {
+    font-size: 1.5em;
+    color: #ff9d5c;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px #ff9d5c;
+}
+
+.service p {
+    font-size: 1em;
+    color: #b0b0e0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #111;
+    color: #b0b0e0;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 10px #333;
+}
